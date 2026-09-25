@@ -9,7 +9,7 @@ workflows:
         # and add GEMINI_API_KEY there if you don't want it committed in .env
         - globalstream_secrets
       vars:
-        PACKAGE_NAME: ""    applicationId = "com.aistudio.globalbetting.gbet7"
+        PACKAGE_NAME:  "com.aistudio.globalbetting.gbet7"
       java: 17
     scripts:
       - name: Set up local.properties
